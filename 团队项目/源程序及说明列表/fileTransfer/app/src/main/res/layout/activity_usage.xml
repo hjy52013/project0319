@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Activity.Waiting">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="闪电迅传使用方法"
+        android:textColor="@color/primary_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="发送文件：\n1.点击“发送文件”\n2.选择文件管理器\n3.选择要发送的文件\n4.填写传输码，等待对方接收"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="43dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="接收文件：\n1.点击“接收文件”\n2.设置传输码\n3.等待对方发送文件\n4.点击列表中的文件进行接收"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginTop="43dp"
+        />
+
+
+
+</LinearLayout>

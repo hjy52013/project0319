@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/background"
+    tools:context=".Activity.setIpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lock_numpad_"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/lock_numpad_1_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="1"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_2_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="2"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_3_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="3"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/lock_numpad_4_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="4"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_5_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="5"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_6_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="6"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/lock_numpad_7_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="7"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_8_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="8"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_9_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="9"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/lock_button_backspace_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_gravity="center"
+                android:text="删除"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_numpad_0_"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="0"
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey" />
+
+            <Button
+                android:id="@+id/lock_button_ok"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/lock_numpad_padding"
+                android:paddingBottom="@dimen/lock_numpad_padding"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_gravity="center"
+                android:text="确定 "
+                android:textSize="@dimen/lock_numpad_textsize"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50px"
+            android:layout_centerInParent="true">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rb1_"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rb2_" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rb3_" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

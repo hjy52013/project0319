@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/dowmload_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_dark"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="传输成功！"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dowmload_filesize"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dowmload_time"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:lineSpacingExtra="5dp"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/download_failure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载失败，请检查无线或热点是否连接正常！"
+        android:textColor="@color/primary_dark"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:background="@drawable/button_selector"
+        android:text="确定"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        />
+</LinearLayout>

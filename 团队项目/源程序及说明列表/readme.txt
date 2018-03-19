@@ -1,0 +1,5 @@
+此文件夹内存放闪电迅传android版和PC版的源代码。
+
+fileTransfer文件夹内存放的是android版源代码，使用Android Studio导入后即可查看。
+
+闪电迅传PC文件夹内存放的是PC版源代码，使用Visual Studio2015选择打开项目，选择WindowsFormsApplication2.sln即可打开项目查看源码。
